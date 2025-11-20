@@ -13,30 +13,31 @@
     <header class="header">
       <nav>
         <ul class="header_menu">
-          <li class="without_circle">
-            <p class="text">главная</p>
+          <li class="list_item">
+            <a class="menu_link active_link" href="#0">главная</a>
           </li>
-          <li class="with_circle">
-            <a class="text text_link">посмотреть лоты</a>
+          <li class="list_item_marker">
+            <a class="menu_link" href="#0">посмотреть лоты</a>
           </li>
-          <li class="with_circle">
-            <a class="text text_link">об аукционе</a>
+          <li class="list_item_marker">
+            <a class="menu_link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a class="logo">
-        <img class="logo_image" src="images/logo-black.svg" alt="black logo" />
+      <a class="logo" href="#0">
+        <img class="logo_image" src="./images/logo-black.svg" alt="Чёрный логотип" />
       </a>
       <address class="address header_address">
-        <a href="tel:+99995555555" class="text text_link">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge" class="text text_link"
+        <a href="tel:+99995555555" class="address_text">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="address_text"
           >info@sobaka.ge</a
         >
-        <p class="text">наб. Принсенграхт 263- 265, Амстердам</p>
+        <p class="address_text">наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
     </header>
     <main class="main">
       <section class="cover">
+        <div class="cover_content dark_overlay">
         <h1 class="title">
           <span class="title_text title_text_left">ОНО</span>
           <span class="title_text title_text_center">ТЕБЕ</span>
@@ -46,56 +47,63 @@
           <p class="subline">АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</p>
           <button class="button">СДЕЛАТЬ СТАВКУ</button>
         </div>
+        </div>
       </section>
       <section class="lots">
         <h2 class="lots_title">ЛОТЫ</h2>
         <ul class="lots_cards">
-          <li class="lots_card lots_card_film">
-            <a class="lots_card_title text_link">
-              <article>ФИЛЬМ РЕЖИССЁРА, КОТОРЫЙ БРОСИЛ КИНОШКОЛУ</article>
+          <li class="list_item lots_card_film lots_card_background">
+            <a class="active_link" href="#0">
+              <div class="lots_card dark_overlay">
+              <h3 class="lots_card_title">ФИЛЬМ РЕЖИССЁРА, КОТОРЫЙ БРОСИЛ КИНОШКОЛУ</h3>
+              <p class="lots_card_text">
+                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+              </p>
+              </div>
             </a>
-            <p class="lots_card_text">
-              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-              ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-            </p>
           </li>
-          <li class="lots_card lots_card_book">
-            <a class="lots_card_title text_link">
-              <article>
+          <li class="list_item lots_card_book lots_card_background">
+            <a class="active_link" href="#0">
+              <div class="lots_card dark_overlay">
+              <h3 class="lots_card_title">
                 КНИГА, ГДЕ ОПИСАН ОДИН СКУЧНЫЙ ДЕНЬ ИЗ ЖИЗНИ РЕКЛАМНОГО АГЕНТА
-              </article>
+              </h3>
+              <p class="lots_card_text">
+                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+                переходами на древнеанглийский. В ней одновременно рассказывается
+                о 16 июня 1904 года и об истории литературы, начиная с античных
+                времён. И это всё накладывается на эпическую поэму Гомера. Сколько
+                бы вы поставили на «Улисса» Джеймса Джойса?
+              </p>
+              </div>
             </a>
-            <p class="lots_card_text">
-              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-              переходами на древнеанглийский. В ней одновременно рассказывается
-              о 16 июня 1904 года и об истории литературы, начиная с античных
-              времён. И это всё накладывается на эпическую поэму Гомера. Сколько
-              бы вы поставили на «Улисса» Джеймса Джойса?
-            </p>
           </li>
-          <li class="lots_card lots_card_picture">
-            <a class="lots_card_title text_link">
-              <article>
+          <li class="list_item lots_card_picture lots_card_background">
+            <a class="active_link" href="#0">
+              <div class="lots_card dark_overlay">
+              <h3 class="lots_card_title">
                 КАРТИНА, КОТОРУЮ ПОВТОРИТ ДАЖЕ 5-ЛЕТНИЙ СЫН МАМИНОЙ ПОДРУГИ
-              </article>
+              </h3>
+              <p class="lots_card_text">
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
+                похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
+                Сколько бы вы на такое поставили, если бы не знали, что это — одна
+                из революционных работ Кандинского?
+              </p>
+              </div>
             </a>
-            <p class="lots_card_text">
-              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
-              похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
-              Сколько бы вы на такое поставили, если бы не знали, что это — одна
-              из революционных работ Кандинского?
-            </p>
           </li>
         </ul>
-        <a class="lots_more text_link">посмотреть больше</a>
+        <a class="lots_more" href="#0">посмотреть больше</a>
       </section>
       <section class="about">
-        <section class="logo_column">
+        <div class="logo_column">
           <div class="logo_background">
-            <img class="logo_image_white" src="images/logo-white.svg" />
+            <img class="logo_image_white" src="images/logo-white.svg" alt="Белый логотип"/>
           </div>
-        </section>
-        <section class="about_column">
+        </div>
+        <div class="about_column">
           <h2 class="about_title">ОБ АУКЦИОНЕ</h2>
           <div class="about_description">
             <p class="about_text">
@@ -115,41 +123,47 @@
               лоты стали культовыми.
             </p>
           </div>
-        </section>
+        </div>
       </section>
     </main>
     <footer class="footer">
       <address class="address footer_address">
-        <a href="tel:+99995555555" class="text text_link">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge" class="text text_link"
+        <a href="tel:+99995555555" class="address_text">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="address_text"
           >info@sobaka.ge</a
         >
-        <p class="text">наб. Принсенграхт 263- 265, Амстердам</p>
+        <p class="address_text">наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
       <nav>
         <ul class="footer_menu">
-          <li class="without_circle">
-            <p class="text">главная</p>
+          <li class="list_item">
+            <a class="menu_link active_link" href="#0">главная</a>
           </li>
-          <li class="without_circle">
-            <a class="text text_link">посмотреть лоты</a>
+          <li class="list_item">
+            <a class="menu_link" href="#0">посмотреть лоты</a>
           </li>
-          <li class="without_circle">
-            <a class="text text_link">об аукционе</a>
+          <li class="list_item">
+            <a class="menu_link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <div class="socials">
-        <div class="youtube icon">
-          <img class="youtube_logo" src="/images/yt.svg" />
-        </div>
-        <div class="vk icon">
-          <img class="vk_logo" src="/images/vk.svg" />
-        </div>
-        <div class="pinterest icon">
-          <img class="pinterest_logo" src="/images/pinterest.svg" />
-        </div>
-      </div>
+      <ul class="socials">
+        <li class="socials_badge list_item">
+          <a href="#0">
+          <img class="youtube_logo" src="./images/yt.svg" alt="Логотип youtube"/>
+          </a>
+        </li>
+        <li class="socials_badge list_item">
+          <a href="#0">
+          <img class="vk_logo" src="./images/vk.svg" alt="Логотип vk"/>
+          </a>
+        </li>
+        <li class="socials_badge list_item">
+          <a href="#0">
+          <img class="pinterest_logo" src="./images/pinterest.svg" alt="Логотип pinterest"/>
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
