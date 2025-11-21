@@ -3,8 +3,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   width: 100%;
-  min-height: 293px;
-  padding: 50px;
+  padding: 93px 50px 90px;
 }
 
 .header_menu {
@@ -21,7 +20,7 @@
   list-style: circle;
 }
 
-.header_address{
+.header_address {
   text-underline-offset: 5px;
 }
 
@@ -34,7 +33,8 @@
   text-underline-offset: 3px;
 }
 
-.active_link {
+.menu_active_link,
+.lots_card_active_link {
   text-decoration: none;
 }
 
@@ -61,7 +61,7 @@
   width: 1100px;
   min-height: 757px;
   color: white;
-  background-image: url('../images/cover.jpg');
+  background-image: url("../images/cover.jpg");
   background-position: center top;
   background-size: cover;
 }
@@ -87,20 +87,20 @@
   font-size: 100px;
   letter-spacing: 30px;
   margin-right: -30px;
+  margin-top: 17px;
 }
 
 .title_text_left {
-  margin-right:0;
+  margin-right: 0;
+  margin-top: 0;
 }
 
 .title_text_center {
   align-self: center;
-  margin-top: 15px;
 }
 
 .title_text_right {
   align-self: flex-end;
-  margin-top: 19px;
 }
 
 .description {
@@ -112,6 +112,7 @@
 
 .subline {
   word-spacing: 18.5px;
+  text-transform: uppercase;
 }
 
 .button {
@@ -119,6 +120,7 @@
   color: white;
   background-color: rgba(255, 255, 255, 0);
   padding: 12px 32px;
+  text-transform: uppercase;
 }
 
 .lots {
@@ -155,15 +157,15 @@
 }
 
 .lots_card_film {
-  background-image: url('../images/card-lot-01.jpg');
+  background-image: url("../images/card-lot-01.jpg");
 }
 
 .lots_card_book {
-  background-image: url('../images/card-lot-02.jpg');
+  background-image: url("../images/card-lot-02.jpg");
 }
 
 .lots_card_picture {
-  background-image: url('../images/card-lot-03.jpg');
+  background-image: url("../images/card-lot-03.jpg");
 }
 
 .lots_card_background {
@@ -184,7 +186,7 @@
 .lots_more {
   margin-bottom: 3px;
   margin-left: 40px;
-  font-size: 20px; 
+  font-size: 20px;
   text-underline-offset: 6px;
 }
 
@@ -217,7 +219,7 @@
   margin-left: 25px;
 }
 
-.about_title{
+.about_title {
   margin-bottom: 100px;
   font-size: 40px;
 }
@@ -232,8 +234,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 108px;
-  padding: 50px;
-  min-height: 250px;
+  padding: 50px 50px 70px;
 }
 
 .footer_address {
@@ -255,6 +256,12 @@
 }
 
 .socials_badge {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.socials_icon {
   width: 48px;
   height: 48px;
   border-radius: 50%;
